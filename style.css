@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    border: border-box;
+}
+#navbar{
+    height: 90px;
+}
+#centre{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    
+
+}
+#logo{
+    height: 50px;
+    width: 120px;
+    background-image: url(Screenshot\ 2024-12-24\ 185552.png);
+    background-size: cover;
+    border: 1.5px solid transparent;
+    margin-right: 10px;
+}
+#logo:hover{
+    border: 1.5px solid white;
+}
+.hover{
+    border: 1.5px solid transparent; 
+}
+.hover:hover{
+    border: 1.5px solid white;
+    
+}
+
+#locationlogo{
+    color: white;
+    border: 1.5px solid transparent;
+    align-self:center;
+    margin-right: 10px;
+}
+#locationlogo:hover{
+    border: 1.5px solid white;
+}
+#nav-searchbar:hover{
+    border: 2px solid black;
+}
+
+.loactionicon{
+    display: inline;
+    align-items: center;
+}
+
+
+#search-inner{
+    display: flex;
+    height: 40px;
+    border: 1.5px solid transparent;
+}
+#nav-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    background-color: #E6E6E6;
+}
+
+#search-button{
+    width: 30px;  
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none; 
+    background-color: #f08804;
+}
+
+
+#nav-searchbar{
+    width: 550px;
+    border: none;
+}
+#innerbox4{
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid transparent;
+}
+#helo1{
+    font-size: 0.75rem;
+    color: white;
+    text-decoration: none;
+    display: block;
+   
+    width: 70px;
+
+}
+#accounts{
+    font-size: 0.85rem;
+    display: inline;
+}
+#justselect{
+    width: 20px;
+    background-color: rgb(244, 239, 239);
+    text-align: center;
+}
+#cart1{
+    display: flex;
+    position: relative;
+    right: 20px;
+    border: 1.5px solid transparent;
+}
+#cart{
+    font-size: 30px;
+    
+}
+
+#s1{
+    align-self: flex-end;
+}
+
+#panel{
+    height: 30px;
+    background-color:#353939;
+    color: white;
+
+}
+#icon1{
+    display: flex;
+   align-items: center;
+}
+#panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#panelinner{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+
+}
+#icon{
+    color: white;
+}
+#mainsection{
+    height: 350px;
+    background-image: url(pc_unrec_refresh._CB555261616_.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+   
+#midbox{
+    width: 80vw;
+    text-align: center;
+    background-color: white;
+    border:2px solid;
+    border-radius: 6px;
+    position: relative;
+    bottom: 30px;
+}
+#shop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(251, 229, 201);
+
+}
+.box{
+    height: 300px;
+    width: 23vw;
+    border:2px solid ;
+    background-color: white;
+    text-align: center;
+    
+}
+.outer{
+    height: 310px;
+    width: 24vw;
+    border:2px solid ;
+    background-color: black;
+    text-align: center;
+
+}
+ 
+img{
+    width: 22vw;
+    height: 250px;
+}
+.tp{
+    background-color:rgb(251, 229, 201) ;
+}
+main{
+    margin-bottom: 15px;
+
+}
+#a1{
+    color: white;
+}
+#secondpanel{
+    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333333;
+    color: white;
+    height:190px;
+    
+    
+}
+.shift{
+    position: relative;
+    top: 20px;
+}
+
+#panel1{
+    height: 25px;;
+background-color: #353939;
+color: rgb(242, 135, 135);
+text-align: center;
+font-size: medium;
+
+}
+
+#thirdpanel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color:#0f1111; 
+    color: white;
+   
+}
+
+li{
+    list-style-type: none;
+    align-self: center;
+}
+li:hover{
+   text-decoration: underline;
+   text-decoration-color: white;
+    
+}
+
+.logoredict{
+    height: 30px;
+    width: 30px;
+    margin: 4px;
+}
